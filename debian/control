@@ -1,0 +1,26 @@
+Source: blueman
+Section: x11
+Priority: optional
+Maintainer: h0tw4t3r <h0tw4t3r@parrotsec.org>
+Homepage: https://github.com/blueman-project/blueman
+Standards-Version: 4.1.0
+Build-Depends: debhelper (>= 7), autotools-dev, cdbs, libglib2.0-dev, libtool,
+               libbluetooth-dev (>= 4.0), intltool, python3-dev (>= 3.2),
+               cython, python3-dbus, dh-autoreconf, python-gi-dev, dh-python
+
+Package: blueman
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python3:Depends}, dbus,
+         default-dbus-session-bus | dbus-session-bus,
+         bluez (>= 4.61), obexd-client (>= 0.47) | bluez-obexd,
+         obexd-server (>= 0.47) | bluez-obexd, python3-dbus, python3-gi,
+         notification-daemon, librsvg2-common,
+         gnome-icon-theme | mate-icon-theme | elementary-xfce-icon-theme,
+         libpulse-mainloop-glib0, gir1.2-gtk-3.0, gir1.2-gdkpixbuf-2.0,
+         gir1.2-glib-2.0, gir1.2-pango-1.0, gir1.2-notify-0.7, python3-cairo,
+         python3-gi-cairo, gir1.2-appindicator3-0.1
+Recommends: policykit-1, pulseaudio-module-bluetooth
+Description: Graphical bluetooth manager
+ Blueman is a GTK+ bluetooth management utility for GNOME using bluez D-Bus
+ backend.
+ .
