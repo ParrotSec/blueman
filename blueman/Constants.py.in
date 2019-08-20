@@ -1,0 +1,35 @@
+from __future__ import print_function
+from __future__ import division
+from __future__ import absolute_import
+from __future__ import unicode_literals
+
+VERSION="@VERSION@"
+PACKAGE="@PACKAGE@"
+WEBSITE="https://github.com/blueman-project/blueman"
+PREFIX="@prefix@"
+BIN_DIR="@BINDIR@"
+ICON_PATH = "@icondir@"
+PIXMAP_PATH = "@prefix@/share/pixmaps/@PACKAGE@"
+UI_PATH = "@pkgdatadir@/ui"
+OBEX_BROWSE_AVAILABLE = True
+DHCP_CONFIG_FILE = "@dhconfig@"
+POLKIT = "@have_polkit@" == "yes"
+
+import os
+import gettext
+try: import __builtin__ as builtins
+except ImportError: import builtins
+
+translation = gettext.translation("@GETTEXT_PACKAGE@", "@LOCALEDIR@", fallback=True)
+try:
+    translation.install(unicode=True)
+    builtins.ngettext = translation.ungettext
+except TypeError:
+    translation.install()
+    builtins.ngettext = translation.ngettext
+
+if os.path.exists("../apps") and os.path.exists("../data"):
+	BIN_DIR = "./"
+	ICON_PATH = "../data/icons"
+	PIXMAP_PATH = "../data/icons/pixmaps"
+	UI_PATH = "../data/ui"

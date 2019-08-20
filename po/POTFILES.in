@@ -1,0 +1,121 @@
+[type: gettext/glade]data/ui/adapters-tab.ui
+[type: gettext/glade]data/ui/adapters.ui
+[type: gettext/glade]data/ui/applet-passkey.ui
+[type: gettext/glade]data/ui/manager-main.ui
+[type: gettext/glade]data/ui/rename-device.ui
+[type: gettext/glade]data/ui/services.ui
+[type: gettext/glade]data/ui/services-network.ui
+[type: gettext/glade]data/ui/services-transfer.ui
+[type: gettext/glade]data/ui/send-dialog.ui
+[type: gettext/glade]data/ui/assistant.ui
+[type: gettext/glade]data/ui/device-list-widget.ui
+[type: gettext/glade]data/ui/applet-plugins-widget.ui
+[type: gettext/glade]data/ui/gsm-settings.ui
+[type: gettext/glade]data/ui/net-usage.ui
+blueman/main/NetConf.py
+blueman/main/PulseAudioUtils.py
+blueman/main/SignalTracker.py
+blueman/main/Device.py
+blueman/main/Mechanism.py
+blueman/main/PPPConnection.py
+blueman/main/FakeDevice.py
+blueman/main/Config.py
+blueman/main/__init__.py
+blueman/main/AppletService.py
+blueman/main/DhcpClient.py
+blueman/main/SpeedCalc.py
+blueman/main/applet/__init__.py
+blueman/main/applet/BluezAgent.py
+blueman/main/PluginManager.py
+blueman/main/DbusService.py
+blueman/Functions.py
+blueman/gui/manager/ManagerMenu.py
+blueman/gui/manager/ManagerDeviceList.py
+blueman/gui/manager/ManagerDeviceMenu.py
+blueman/gui/manager/ManagerProgressbar.py
+blueman/gui/manager/ManagerStats.py
+blueman/gui/manager/ManagerToolbar.py
+blueman/gui/manager/__init__.py
+blueman/gui/GtkAnimation.py
+blueman/gui/DeviceSelectorDialog.py
+blueman/gui/MessageArea.py
+blueman/gui/Animation.py
+blueman/gui/DeviceSelectorList.py
+blueman/gui/CommonUi.py
+blueman/gui/Dialogs.py
+blueman/gui/__init__.py
+blueman/gui/GsmSettings.py
+blueman/gui/DeviceList.py
+blueman/gui/GenericList.py
+blueman/gui/applet/__init__.py
+blueman/gui/applet/PluginDialog.py
+blueman/gui/Notification.py
+blueman/gui/DeviceSelectorWidget.py
+blueman/DeviceClass.py
+blueman/__init__.py
+blueman/Sdp.py
+blueman/Constants.py.in
+blueman/bluez/Adapter.py
+blueman/bluez/errors.py
+blueman/bluez/BlueZInterface.py
+blueman/bluez/Device.py
+blueman/bluez/Manager.py
+blueman/bluez/__init__.py
+blueman/bluez/Agent.py
+blueman/plugins/mechanism/RfKill.py
+blueman/plugins/mechanism/Network.py
+blueman/plugins/mechanism/Ppp.py
+blueman/plugins/mechanism/__init__.py
+blueman/plugins/manager/PulseAudioProfile.py
+blueman/plugins/manager/__init__.py
+blueman/plugins/manager/Services.py
+blueman/plugins/ConfigurablePlugin.py
+blueman/plugins/ManagerPlugin.py
+blueman/plugins/BasePlugin.py
+blueman/plugins/ServicePlugin.py
+blueman/plugins/AppletPlugin.py
+blueman/plugins/__init__.py
+blueman/plugins/applet/NetUsage.py
+blueman/plugins/applet/StatusIcon.py
+blueman/plugins/applet/Networking.py
+blueman/plugins/applet/NMDUNSupport.py
+blueman/plugins/applet/RecentConns.py
+blueman/plugins/applet/NMPANSupport.py
+blueman/plugins/applet/DBusService.py
+blueman/plugins/applet/TransferService.py
+blueman/plugins/applet/KillSwitch.py
+blueman/plugins/applet/StandardItems.py
+blueman/plugins/applet/AuthAgent.py
+blueman/plugins/applet/__init__.py
+blueman/plugins/applet/ExitItem.py
+blueman/plugins/applet/DhcpClient.py
+blueman/plugins/applet/ShowConnected.py
+blueman/plugins/applet/AppIndicator.py
+blueman/plugins/applet/Headset.py
+blueman/plugins/applet/DiscvManager.py
+blueman/plugins/applet/Menu.py
+blueman/plugins/applet/PPPSupport.py
+blueman/plugins/applet/SerialManager.py
+blueman/plugins/applet/PowerManager.py
+blueman/plugins/applet/GameControllerWakelock.py
+blueman/plugins/MechanismPlugin.py
+blueman/services/AudioSink.py
+blueman/services/AudioSource.py
+blueman/plugins/services/Network.py
+blueman/plugins/services/__init__.py
+blueman/plugins/services/Transfer.py
+
+
+data/blueman-adapters.desktop.in
+data/blueman.desktop.in
+data/blueman-manager.desktop.in
+data/thunar-sendto-blueman.desktop.in
+data/configs/org.blueman.policy.in
+
+apps/blueman-manager
+apps/blueman-services
+apps/blueman-applet
+apps/blueman-adapters
+apps/blueman-sendto
+apps/blueman-assistant
+apps/blueman-browse

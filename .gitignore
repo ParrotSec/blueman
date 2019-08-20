@@ -1,0 +1,62 @@
+# aclocal
+/aclocal.m4
+/autom4te.cache
+
+# autoheader
+/config.h.in
+
+# libtoolize
+/ltmain.sh
+/m4
+
+# intltoolize
+/intltool-extract.in
+/intltool-merge.in
+/intltool-update.in
+/po/Makefile.in.in
+
+# automake
+Makefile.in
+/compile
+/config.guess
+/config.sub
+/depcomp
+/install-sh
+/missing
+/py-compile
+
+# autoconf
+/configure
+
+# ./configure
+Makefile
+/config.h
+/config.log
+/config.status
+/libtool
+/stamp-h1
+/blueman/Constants.py
+/blueman/plugins/mechanism/Rfcomm.py
+/data/configs/blueman-applet.service
+/data/configs/org.blueman.Mechanism.service
+/module/.deps
+/po/POTFILES
+/po/stamp-it
+
+# make
+/data/blueman-adapters.desktop
+/data/blueman-manager.desktop
+/data/blueman.desktop
+/data/thunar-sendto-blueman.desktop
+/data/org.blueman.gschema.valid
+/data/configs/org.blueman.policy
+/module/.libs
+/module/_blueman.c
+/module/_blueman.la
+/module/_blueman_la-*.lo
+/module/_blueman_la-*.o
+/po/*.gmo
+/po/.intltool-merge-cache
+
+# Local execution
+/blueman/**/*.pyc
